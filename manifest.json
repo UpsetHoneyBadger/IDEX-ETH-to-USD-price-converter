@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "IDEX PRPS and DUBI price converter",
+  "description": "This extension converts the ETH prices on IDEX to $ prices, it uses recent price data from coinmarketcap",
+  "version": "1.0",
+
+  "icons": { "16": "icon_16.png",
+           "48": "icon_48.png",
+          "128": "icon_128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://idex.market/eth/*"],
+      "js": ["jquery-3.2.1.min.js", "script.js"]
+    }
+  ],
+  "update_url": "http://0.0.0.0",
+  "permissions": ["tabs"]
+}
