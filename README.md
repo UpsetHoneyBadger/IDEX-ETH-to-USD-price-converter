@@ -1,4 +1,4 @@
-# USD to ETH Price converter for IDEX.market 
+# USD to ETH Price converter for idex.market 
 
 This google chrome extension converts the ETH prices on idex.market into USD prices.
 
