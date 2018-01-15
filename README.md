@@ -9,7 +9,7 @@ https://i.imgur.com/kGeJV.png
 ### Installing
 
 ```
-Download this repository and unpackage it.
+Download this repository and unpackage it to a folder and remember the location.
 Enable Google chrome developer mode
 ```
 
